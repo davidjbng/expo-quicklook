@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-file-viewer-example",
-    "slug": "expo-file-viewer-example",
+    "name": "expo-quicklook-example",
+    "slug": "expo-quicklook-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,19 +11,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "expo.modules.fileviewer.example"
+      "bundleIdentifier": "expo.modules.quicklook.example"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "expo.modules.fileviewer.example"
+      "package": "expo.modules.quicklook.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"

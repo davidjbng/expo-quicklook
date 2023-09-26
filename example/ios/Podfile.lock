@@ -11,7 +11,7 @@ PODS:
     - ExpoModulesCore
   - Expo (49.0.12):
     - ExpoModulesCore
-  - ExpoFileViewer (0.1.0):
+  - ExpoQuickLook (0.1.0):
     - ExpoModulesCore
   - ExpoKeepAwake (12.3.0):
     - ExpoModulesCore
@@ -456,7 +456,7 @@ DEPENDENCIES:
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
   - Expo (from `../node_modules/expo`)
-  - ExpoFileViewer (from `../../ios`)
+  - ExpoQuickLook (from `../../ios`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -520,7 +520,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font/ios"
   Expo:
     :path: "../node_modules/expo"
-  ExpoFileViewer:
+  ExpoQuickLook:
     :path: "../../ios"
   ExpoKeepAwake:
     :path: "../node_modules/expo-keep-awake/ios"
@@ -610,7 +610,7 @@ SPEC CHECKSUMS:
   EXFileSystem: 2b826a3bf1071a4b80a8457e97124783d1ac860e
   EXFont: 738c44c390953ebcbab075a4848bfbef025fd9ee
   Expo: 30f1f1af73d650fa5d158702faec70e5d26b5d97
-  ExpoFileViewer: 19baf8676db3f1a93864faf2c4919916e27040b5
+  ExpoQuickLook: 19baf8676db3f1a93864faf2c4919916e27040b5
   ExpoKeepAwake: be4cbd52d9b177cde0fd66daa1913afa3161fc1d
   ExpoModulesCore: 51cb2e7ab4c8da14be3f40b66d54c1781002e99d
   FBLazyVector: 71803c074f6325f10b5ec891c443b6bbabef0ca7

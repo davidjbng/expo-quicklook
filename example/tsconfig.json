@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "expo-file-viewer": ["../src/index"],
-      "expo-file-viewer/*": ["../src/*"]
+      "expo-quicklook": ["../src/index"],
+      "expo-quicklook/*": ["../src/*"]
     }
   }
 }

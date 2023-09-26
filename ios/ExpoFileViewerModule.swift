@@ -2,7 +2,7 @@ import Foundation
 import QuickLook  
 import ExpoModulesCore  
   
-public class ExpoFileViewerModule: Module {
+public class ExpoQuickLookModule: Module {
   private var previewController: QLPreviewController?  
   private var dataSource: FileUrlDataSource?
 

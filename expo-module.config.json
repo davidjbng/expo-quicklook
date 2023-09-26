@@ -1,9 +1,6 @@
 {
-  "platforms": ["ios", "android", "web"],
+  "platforms": ["ios"],
   "ios": {
-    "modules": ["ExpoFileViewerModule"]
-  },
-  "android": {
-    "modules": ["expo.modules.fileviewer.ExpoFileViewerModule"]
+    "modules": ["ExpoQuickLookModule"]
   }
 }
