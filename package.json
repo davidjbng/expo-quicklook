@@ -29,11 +29,11 @@
   "author": "David Jebing <29679909+davidjbng@users.noreply.github.com> (https://github.com/davidjbng)",
   "license": "MIT",
   "homepage": "https://github.com/davidjbng/expo-quicklook#readme",
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.0.11",
-    "expo-modules-core": "^1.5.7"
+    "expo-modules-core": "^1.5.7",
+    "prettier": "3.0.3"
   },
   "peerDependencies": {
     "expo": "*",
