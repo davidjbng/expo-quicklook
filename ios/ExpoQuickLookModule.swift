@@ -30,7 +30,7 @@ public class ExpoQuickLookModule: Module {
       }
 
       self.dataSource = FileUrlDataSource(fileURL: url)
-      previewController?.dataSource = self.dataSource
+      previewController!.dataSource = self.dataSource
 
       // TODO: pass through previewController settings
 
@@ -38,7 +38,7 @@ public class ExpoQuickLookModule: Module {
         throw MissingCurrentViewControllerException()
       }
 
-      currentViewcontroller.present(previewController, animated: true, completion: nil)
+      currentViewcontroller.present(previewController!, animated: true, completion: nil)
     }.runOnQueue(.main)
   }
 }

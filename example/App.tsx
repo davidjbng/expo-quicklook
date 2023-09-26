@@ -1,6 +1,5 @@
-import * as ExpoQuickLook from "expo-quicklook";
-
-import { Text, View } from "react-native";
+import { openPreviewAsync } from "expo-quicklook";
+import { Button, View } from "react-native";
 
 export default function App() {
   return (
@@ -12,7 +11,14 @@ export default function App() {
         justifyContent: "center",
       }}
     >
-      <Text>{ExpoQuickLook.hello()}</Text>
+      <Button
+        onPress={() =>
+          openPreviewAsync(
+            "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          )
+        }
+        title="Open File"
+      />
     </View>
   );
 }
